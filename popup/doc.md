@@ -1,0 +1,1 @@
+In popup we stored files related to the opening window of the extension when we press the button in the firefox toolbar
