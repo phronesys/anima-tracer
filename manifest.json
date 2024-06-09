@@ -1,14 +1,12 @@
 {
   "manifest_version": 2,
   "name": "anima tracer",
-  "version": "1.0", 
-
-  "description": "Adds a red border to all webpages matching mozilla.org.",
-
+  "version": "1.0",
+  "description": "Records your last watched episodes in a library",
   "icons": {
-    "48": "icons/border-48.png"
+    "48": "anima48.png",
+    "32": "anima32.png"
   },
-
   "content_scripts": [
     {
       "matches": ["https://www3.animeflv.net/*"],
